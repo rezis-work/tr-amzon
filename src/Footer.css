@@ -1,0 +1,13 @@
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: #343a40;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: #343a40;
+}

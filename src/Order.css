@@ -1,0 +1,23 @@
+.order {
+  padding: 4rem;
+  margin: 2rem;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  position: relative;
+}
+
+.order__id {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+}
+
+@media (max-width: 37em) {
+  .order__main {
+    margin-bottom: 2rem;
+  }
+
+  .order {
+    border-radius: 2rem;
+  }
+}

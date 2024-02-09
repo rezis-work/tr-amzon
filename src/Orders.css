@@ -1,0 +1,17 @@
+.orders {
+  padding: 2rem 8rem;
+}
+
+.orders > h1 {
+  padding-left: 2rem;
+}
+
+@media (max-width: 37em) {
+  .orders {
+    padding: 1px;
+  }
+
+  .orders > h1 {
+    margin-top: 1rem;
+  }
+}
